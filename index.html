@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assembleia de Deus Semear</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#f7f3e8;
+color:#1f3b2f;
+}
+
+/* MENU */
+header{
+background:#1f3b2f;
+color:white;
+padding:15px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav a{
+color:white;
+margin-left:15px;
+text-decoration:none;
+font-size:14px;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+/* HERO */
+.hero{
+background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+url('https://images.unsplash.com/photo-1529070538774-1843cb3265df') center/cover;
+color:white;
+text-align:center;
+padding:80px 20px;
+}
+
+.hero h1{
+font-size:34px;
+margin:0;
+}
+
+/* SEÇÕES */
+section{
+padding:40px 20px;
+max-width:900px;
+margin:auto;
+}
+
+.card{
+background:white;
+padding:20px;
+margin-top:15px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* OFERTAS */
+.ofertas{
+text-align:center;
+}
+
+.ofertas img{
+width:220px;
+margin-top:10px;
+border-radius:10px;
+}
+
+/* FOOTER */
+footer{
+background:#1f3b2f;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:30px;
+}
+
+/* MOBILE */
+@media(max-width:600px){
+.hero h1{
+font-size:24px;
+}
+
+nav a{
+font-size:12px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>Assembleia de Deus Semear</h2>
+<nav>
+<a href="#sobre">Sobre</a>
+<a href="#cultos">Cultos</a>
+<a href="#eventos">Eventos</a>
+<a href="#ofertas">Ofertas</a>
+</nav>
+</header>
+
+<div class="hero">
+<h1>Assembleia de Deus Semear</h1>
+<p>Semeando a palavra de Deus com amor e fé</p>
+</div>
+
+<section id="sobre">
+<h2>Sobre nós</h2>
+<div class="card">
+<p>A Assembleia de Deus Semear é uma igreja comprometida com o evangelho de Cristo, levando a palavra de Deus com amor, fé e esperança.</p>
+</div>
+</section>
+
+<section id="cultos">
+<h2>Cultos</h2>
+<div class="card">
+<p><strong>Domingo:</strong> 19h</p>
+<p><strong>Quarta-feira:</strong> 20h</p>
+<p><strong>Sexta-feira:</strong> 20h</p>
+</div>
+</section>
+
+<section id="eventos">
+<h2>Eventos</h2>
+<div class="card">
+<p>📅 Vigília de oração - último sábado do mês</p>
+<p>📅 Culto de jovens - todo sábado</p>
+</div>
+</section>
+
+<section id="ofertas" class="ofertas">
+<h2>💰 Ofertas e Dízimos</h2>
+<div class="card">
+<p>Escaneie o QR Code abaixo:</p>
+
+<img src="qrcode-pix.png" alt="Pix QR Code">
+
+<p><strong>Pix:</strong> sua-chave-pix-aqui</p>
+</div>
+</section>
+
+<footer>
+<p>© Assembleia de Deus Semear</p>
+</footer>
+
+</body>
+</html>
